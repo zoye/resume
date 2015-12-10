@@ -1,0 +1,31 @@
+{
+  "name": "zoye-resume",
+  "version": "1.0.0",
+  "description": "my resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoye/resume.git"
+  },
+  "keywords": [
+    "zoye"
+  ],
+  "author": "zoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoye/resume/issues"
+  },
+  "homepage": "https://github.com/zoye/resume",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-rev": "^0.1.0",
+    "grunt-timer": "^0.6.0",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.2"
+  }
+}
