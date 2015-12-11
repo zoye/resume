@@ -2,9 +2,52 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>包振烨-前端工程师简历</title>
+    <meta name="keywords" content="包振烨,web,前端,简历" />
+    <meta name="description" content="包振烨-前端开发工程师,一个偶然的机遇让我走上编程之路，我相信我会越走越远，越走越稳，因为我已经爱上了它。" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css"/>
+
 </head>
 <body>
-Hello World!
+<div class="header-wrap clearfix">
+    <span class="h-left">
+        <img src="img/me.jpg" class="me"/>
+        <span class="h-name"><b class="h-position">F2E</b> - 包振烨 </span>
+    </span>
+    <div class="nav clearfix">
+        <a href="http://zoye.sinaapp.com/" class="nav-link">博客</a>
+    </div>
+
+</div>
+<div id="my-timeline"></div>
+
+ <!--jQuery -->
+<script type="text/javascript" src="js/jquery.js"></script>
+ <!--BEGIN TimelineJS-->
+<script type="text/javascript" src="js/storyjs-embed.js"></script>
+
+<script>
+    $(function() {
+        createStoryJS({
+            type:       'timeline',
+            width:      '100%',
+            height:     '600',
+            source:     'json/my-json.json',
+            embed_id:   'my-timeline',
+            lang:'zh-cn',
+            start_at_slide:5,
+            start_zoom_adjust:2
+
+        });
+    });
+</script>
+ <!--END TimelineJS -->
+
 </body>
 </html>

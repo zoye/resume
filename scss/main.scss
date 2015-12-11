@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import "base/normalize";
+@import "base/mixins";
+@import "base/global";
+//@import "base/zoye-font";
+@import "plugins/timeline";
+
+.header-wrap{
+  padding:10px 20px;
+  border-bottom:solid 1px #ccc;
+  box-shadow: -3px 0 3px #ccc;
+  margin-bottom:10px;
+  .h-left{
+    float:left;
+    display: inline-block;
+    line-height: 60px;
+    color:#333;
+  }
+  .me{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:10px;
+  }
+  .h-name{
+    font-size:20px;
+  }
+
+  .nav{
+    float:right;
+
+
+    .nav-link{
+      color:#44d4f8;
+      display: inline-block;
+      padding:0 3px;
+      height:60px;
+      line-height: 60px;
+      margin:0 7px;
+      position:relative;
+      text-decoration: none;
+      &:before{
+        content:'';
+        display: block;
+        position: absolute;
+        bottom:0;
+        left:50%;
+        height:4px;
+        width:0;
+        transition:all ease .5s;
+        background:#44d4f8;
+      }
+      &:hover{
+        &:before{
+          left:0;
+          width:100%
+        }
+      }
+    }
+  }
+}
+@media (max-width:640px) {
+  .header-wrap{
+    .h-left{
+      line-height: 36px;
+      .me{
+        width:36px;
+        height:36px;
+      }
+      .h-name{
+        font-size:16px;
+      }
+    }
+    .nav{
+      .nav-link{
+        height:36px;
+        line-height: 36px;
+      }
+    }
+  }
+}

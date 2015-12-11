@@ -1,0 +1,110 @@
+@charset "utf-8";
+.g-orange{color:#FFA500;}
+.g-grey{color:#8d8d8d;}
+.g-black{color:#333;}
+.g-fl{float:left;}
+.g-fr{float:right;}
+.g-fz-12{font-size:12px;}
+.g-fz-14{font-size:14px;}
+.g-fz-16{font-size:16px;}
+.g-fz-18{font-size:18px;}
+.g-fz-20{font-size:20px;}
+.g-fz-22{font-size:20px;}
+.g-fz-24{font-size:24px;}
+.g-fz-30{font-size:20px;}
+.g-fz-36{font-size:26px;}
+.g-mr-30{margin-right:30px;}
+.g-td-u{text-decoration: underline;}
+.g-mtb-10{margin:10px 0}
+.g-mtb-15{margin:15px 0}
+.g-mtb-20{margin:20px 0}
+.g-mlr-10{margin:0 10px}
+.g-mlr-15{margin:0 15px}
+.g-mlr-20{margin:0 20px}
+
+.g-input,
+.g-textarea{
+  border:solid 1px #cccccc;
+  transition:border linear 0.2s;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing: border-box;
+  padding:5px 10px;
+}
+.g-input.error,
+.g-textarea.error{
+  background: #fcdfe3;
+  border: 1px solid red;
+}
+.g-input:focus,
+.g-textarea:focus,
+.g-select{
+  outline:0 none !important;
+}
+.g-input:focus,
+.g-textarea:focus{
+  background:#fff;
+  border-color:#FFC4A3 !important;
+}
+.g-input{
+  height:40px;
+  padding:5px 10px;
+}
+
+.g-btn[type=submit]{
+  cursor:pointer;
+  -webkit-appearance: none;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.full-input{width:100%}
+.g-btn-wrap{
+  text-align: center;
+}
+.g-btn{
+  background:#ff600d;
+  color:#fff !important;
+  height:45px;
+  text-align: center;
+  min-width:300px;
+  font-size:18px;
+}
+
+.g-error-msg{
+  background: #fcdfe3;
+  border: 1px solid red;
+  color:red;
+  text-align: center;
+  display: none;
+  padding:10px;
+}
+.g-tip{
+  border: 1px solid #333;
+  text-align: center;
+  display: none;
+  padding:10px;
+}
+.g-tip.error-tip{
+  border-color:red;
+  background:#fcdfe3;
+  color:red;
+}
+.g-tip.success-tip{
+  border-color:#5cb85c;
+  background:#97DFB3;
+  color:#fff;
+}
+.g-overflow{overflow:hidden;}
+.g-va-wrap{display: table;width: 100%;height: 100%;}
+.g-va{display: table-cell;vertical-align: middle;}
+.g-va img{vertical-align: middle;max-height: 100%;max-width:100%;}
+.clearfix{
+  zoom: 1;
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
