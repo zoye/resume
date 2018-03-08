@@ -26,42 +26,6 @@
                     "caption":""
                 }
 
-            },
-            {
-                "startDate":"2012,03,01",
-				"endDate":"2014,03,01",
-                "headline":"南京斑马网研发中心",
-                "text":"<p>职位：前端工程师</p><p>工作内容：<br/>1.负责公司PC端,Hybrid app,Web App开发，主要以响应式网站开发为主。<br/>2.负责网站日常维护和性能优化。<br/>3.UI复用组件，js插件等编写。</p><p>参与项目：<a href='http://m.banma.com/' target='_blank'>斑马网webApp</a> , <a href='http://star.banma.com/' target='_blank'>星座大师webApp</a></p>",
-                "asset":
-                {
-                    "media":"",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-            {
-                "startDate":"2014,03,10",
-                "endDate":"2015,05,18",
-                "headline":"南京傲英帕信息科技有限公司",
-                "text":"<p>职位：前端工程师</p><p>工作内容：<br/>1.负责公司PC端,Hybrid app,.Web App开发，微信开发，主要以响应式网站开发为主。<br/>2.负责网站日常维护和性能优化。<br/>3.UI复用组件，js插件等编写。<br/>4.部分UE和产品经理相关工作。</p><p>参与项目：<a href='http://hub.olympic.org/' target='_blank'>奥林匹克运动员社交网站</a> （翻墙访问）, <a href=http://friendmedia.com/ ' target='_blank'>friendmedia网站</a>（翻墙访问）</p>",
-                "asset":
-                {
-                    "media":"",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-            {
-                "startDate":"2015,05,18",
-                "endDate":"",
-                "headline":"南京问鼎网络技术有限公司",
-                "text":"<p>职位：前端工程师</p><p>工作内容：<br/>1.负责公司产品<a href='http://www.zhimq.com' target='_blank'>职脉圈</a>的PC站，移动站，微信推广页面等所有相关前端工作 <br/>2.带实习生</p><p>参与项目：<a href='http://zhimq.com/' target='_blank'>职脉圈</a>",
-                "asset":
-                {
-                    "media":"",
-                    "credit":"",
-                    "caption":""
-                }
             }
 
         ]
